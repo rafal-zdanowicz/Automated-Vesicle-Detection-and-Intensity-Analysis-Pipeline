@@ -68,8 +68,8 @@ https://github.com/tzutalin/labelImg
 
 Annotations generated with labelImg (YOLO format) are used as inputs to 2nd_prepare_yolo_dataset.py.
 
-## Dependencies
-numpy, opencv-python, pillow, czifile, tkinter, xml, pathlib, shutil, random, yaml, pandas, matplotlib, tqdm, fpdf
+## Requirements
+Python ≥ 3.8, numpy, opencv-python, pillow, czifile, tkinter, xml, pathlib, shutil, random, yaml, pandas, matplotlib, tqdm, fpdf, ultralytics, torch
 
 
 
