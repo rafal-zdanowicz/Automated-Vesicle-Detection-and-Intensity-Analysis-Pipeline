@@ -142,7 +142,7 @@ def main():
         )
 
         h, w = enhanced.shape
-        scale = min(1376 / w, 1104 / h)
+        scale = min(800 / w, 600 / h)
         im_pil = Image.fromarray(enhanced).resize((int(w * scale), int(h * scale)))
         imgtk = ImageTk.PhotoImage(image=im_pil)
         image_label.config(image=imgtk)
