@@ -71,6 +71,8 @@ Annotations generated with labelImg (YOLO format) are used as inputs to 2nd_prep
 ## Requirements
 Python ≥ 3.8, numpy, opencv-python, pillow, czifile, tkinter, xml, pathlib, shutil, random, yaml, pandas, matplotlib, tqdm, fpdf, ultralytics, torch
 
+Tested on Python 3.9–3.11 on Windows and Linux.
+
 
 
 
