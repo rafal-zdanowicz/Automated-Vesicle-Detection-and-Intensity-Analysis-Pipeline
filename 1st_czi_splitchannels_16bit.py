@@ -136,7 +136,7 @@ def main():
         preview_img_8bit = (enhanced_16bit / 256).astype(np.uint8)
 
         h, w = preview_img_8bit.shape
-        target_w, target_h = 1376, 1104
+        target_w, target_h = 800, 600
         scale = min(target_w / w, target_h / h)
         new_w, new_h = int(w * scale), int(h * scale)
         im_pil = Image.fromarray(preview_img_8bit).resize((new_w, new_h))
