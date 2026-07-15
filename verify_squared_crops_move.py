@@ -1,3 +1,4 @@
+# Sometimes vesicles are detected at the image edges resulting in non-squared crops. This script allows for identification and removal of such vesicles, with some user-defined tolerance.
 # If you enter 5% tolerance, then the image is accepted as "square enough" if the width and height differ by no more than 5% of the larger dimension.
 
 
